@@ -1,0 +1,79 @@
+.bebas-neue-regular {
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.prompt-regular {
+    font-family: "Prompt", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+* {
+    background-color: #213555;
+}
+
+mark{
+color: aqua;
+}
+
+header h1 {
+    font-family: "Bebas Neue", serif;
+    color: #d8c4b6;
+    text-align: center;
+    font-size: 80px;
+    background-color: #3E5879;
+}
+
+.avatar{
+    display: block;
+    width: 30%;
+    margin: auto;
+    
+}
+
+.bannerff{
+    display: block;
+    width: 50%;
+    margin:auto
+}
+
+.sinopsis{
+    h2{
+        font-size: 35px;
+        background-color: #3E5879;
+    }
+    
+}
+
+main{
+    color:#F5EFE7 ;
+    font-family: "Prompt", serif;
+    text-align: justify;
+    h2{
+        font-family: "Bebas Neue", serif;
+        text-align: center;
+        color: #d8c4b6;
+        font-size: 30px;
+    }
+}
+
+.top{
+    ol{
+        color: aqua;
+    }
+   h3{
+    font-family: "Bebas Neue", serif;
+    color: #d8c4b6;
+    text-align: center;
+    font-size: 30px;
+   }
+    
+}
+
+
+a{
+    color:#F5EFE7
+ }
