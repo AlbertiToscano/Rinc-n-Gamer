@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de registro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>Suscribete a nuestro News Letter</h1>
+        </header>
+    </main>
+
+    <form action="">
+        <fieldset>
+            <legend>Datos de usuario</legend>
+            Nombre de usuario <input type="text" placeholder="Usuario35" required> <br>
+            Correo electronico <input type="text" placeholder="pablo_75@gmail.com" required> <br>
+            Pais <select name="" id="" required>
+                <option value="">México</option>
+                <option value="">Estados Unidos</option>
+                <option value="">Colombia</option>
+                <option value="">Argentina</option>
+                <option value="">Chile</option>
+                <option value="">El salvador</option>
+                <option value="">Costa rica</option>
+                <option value="">Republica Dominicana</option>
+                <option value="">Brasil</option>
+                <option value="">Otro</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Frecuencia del boletín</legend>
+            <label for="novedad">
+                <input type="radio" name="frecuencia" id="novedad"> Cada que se cree un post
+            </label>
+            <label for="semanal">
+                <input type="radio" name="frecuencia" id="semanal"> Semanal
+            </label>
+            <label for="mensual">
+                <input type="radio" name="frecuencia" id="mensual"> Mensual
+            </label>
+        </fieldset> <br>
+        <input type="checkbox" required> Acepto recibir un boletín de información
+                    <br> 
+                    <br>
+                    <input type="submit" value="Enviar">
+    </form>
+</body>
+
+</html>

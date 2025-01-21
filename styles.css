@@ -75,5 +75,16 @@ main{
 
 
 a{
-    color:#F5EFE7
+    color:#F5EFE7;
+ }
+ form{
+    fieldset{
+        background-color:#3E5879
+    }
+    color: #F5EFE7;
+    font-family: "Prompt", serif;
+
+    legend{
+        color: aqua;
+    }
  }
